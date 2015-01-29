@@ -37,7 +37,7 @@ var meta = function () {
 		},
 
 		'name' : 'asuka',
-		'abstract' : 'Various interactions with Asuka Langley SÃ´ryÃ»'
+		'abstract' : 'Various interactions with Asuka Langley Sôryû'
 	}
 };
 
