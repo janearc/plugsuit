@@ -18,6 +18,8 @@
   ],
   "dependencies": {
     "nopt": "*",
+    "mocha": "*",
+    "chai": "*",
     "sendak-usage": ">=0.0.6",
     "deep-grep": ">=0.3.5"
   },
