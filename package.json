@@ -1,11 +1,8 @@
 {
-  "name": "shell-pluggable",
+  "name": "plugsuit",
   "version": "0.0.1",
   "description": "A pluggable interface for building command-line tools",
-  "main": "lib/s-p.js",
-  "bin": {
-    "shell-pluggable": "plug.js"
-  },
+  "main": "lib/plugsuit.js",
   "scripts": {
     "test": "mocha"
   },
@@ -27,7 +24,7 @@
   "author": "Jane Arc <jane.arc@gsa.gov> (http://18f.us/)"
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/janearc/shell-pluggable/issues"
+    "url": "https://github.com/janearc/plugsuit/issues"
   },
-  "homepage": "https://github.com/janearc/shell-pluggable"
+  "homepage": "https://github.com/janearc/plugsuit"
 }
