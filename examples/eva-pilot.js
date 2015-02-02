@@ -5,6 +5,7 @@
 
 'use strict;'
 
-var tasks = require( 'plugsuit' ).init( 'examples/pilots' );
+var plugsuit = require( 'plugsuit' );
 
-tasks.dispatch( process.argv )
+plugsuit.init( 'examples/pilots' );
+plugsuit.dispatch( process.argv )
