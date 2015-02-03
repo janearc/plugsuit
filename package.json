@@ -20,7 +20,8 @@
     "nopt": "*",
     "mocha": "*",
     "chai": "*",
-    "sendak-usage": ">=0.0.6",
+    "log4js": "*",
+    "sendak-usage": ">=0.0.8",
     "deep-grep": ">=0.3.5"
   },
   "author": "Jane Arc <jane.arc@gsa.gov> (http://18f.us/)"
