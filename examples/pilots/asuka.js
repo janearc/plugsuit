@@ -22,11 +22,14 @@ var plug = function (nopt) {
 		'eva-02'    : 'You\'re thinking in Japanese, aren\'t you? If you MUST think, do it in German!'
 	};
 
+	var count = 0;
 	Object.keys( nopt ).forEach( function (arg) {
 		if (replies[arg]) {
 			console.log( replies[arg] );
+			count++;
 		}
 	} );
+	return count;
 };
 
 module.exports = plug;
