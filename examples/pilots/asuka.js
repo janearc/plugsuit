@@ -15,15 +15,18 @@ var meta = function () {
 	}
 };
 
-var plug = function (nopt) {
+var plug = function (nopt, su) {
 	var replies = {
 		'artillery' : 'Schwein-hund!',
 		'shinji'    : 'How disgusting.',
 		'eva-02'    : 'You\'re thinking in Japanese, aren\'t you? If you MUST think, do it in German!'
 	};
 
+	var P = require( 'singleton' ).get().plugsuit;
+
 	var count = 0;
 	Object.keys( nopt ).forEach( function (arg) {
+		P.logger.info( 'evaluating '.concat( arg ) );
 		if (replies[arg]) {
 			console.log( replies[arg] );
 			count++;
