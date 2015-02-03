@@ -15,7 +15,7 @@ var meta = function () {
 	}
 };
 
-var plug = function (nopt, su) {
+var plug = function (nopt) {
 	var replies = {
 		'artillery' : 'Schwein-hund!',
 		'shinji'    : 'How disgusting.',
