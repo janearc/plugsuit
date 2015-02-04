@@ -24,7 +24,7 @@
     "sendak-usage": ">=0.0.8",
     "deep-grep": ">=0.3.5"
   },
-  "author": "Jane Arc <jane.arc@gsa.gov> (http://18f.us/)"
+  "author": "Jane Arc <jane.arc@gsa.gov> (http://18f.us/)",
   "license": "CC0-1.0",
   "bugs": {
     "url": "https://github.com/janearc/plugsuit/issues"
