@@ -23,7 +23,7 @@ the code, show me the code
 ---
 okay, so, *plugsuit* takes "plugs." an example of a plug follows:
 
-```
+```javascript
 // asuka.js
 //   says some lovable, if over-enthusiastic things to the console
 //   stolen shamelessly from: http://www.imdb.com/character/ch0018088/quotes
@@ -60,7 +60,7 @@ plug.meta      = meta;
 ```
 this defines a 'task' as `asuka`, and we presume this lives in `bin/asuka.js`.
 we would then presumably create something that looks like
-```
+```javascript
 #!/usr/bin/env node
 
 // eva-pilot.js
