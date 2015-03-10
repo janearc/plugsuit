@@ -41,14 +41,14 @@ var meta = function () {
 	}
 };
 
-var plug = function (nopt) {
+var plug = function (args) {
 	var replies = {
 		'artillery' : 'Schwein-hund!',
 		'shinji'    : 'How disgusting.',
 		'eva-02'    : 'You're thinking in Japanese, aren't you? If you MUST think, do it in German!'
 	};
 
-	Object.keys( nopt ).forEach( function (arg) {
+	Object.keys( args ).forEach( function (arg) {
 		if (replies[arg]) {
 			console.log( replies[arg] );
 		}
