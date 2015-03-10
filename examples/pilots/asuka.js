@@ -15,7 +15,7 @@ var meta = function () {
 	}
 };
 
-var plug = function (nopt) {
+var plug = function (args) {
 	var replies = {
 		'artillery' : 'Schwein-hund!',
 		'shinji'    : 'How disgusting.',
@@ -23,7 +23,7 @@ var plug = function (nopt) {
 	};
 
 	var count = 0;
-	Object.keys( nopt ).forEach( function (arg) {
+	Object.keys( args ).forEach( function (arg) {
 		if (replies[arg]) {
 			console.log( replies[arg] );
 			count++;
