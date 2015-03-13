@@ -1,6 +1,6 @@
 {
   "name": "plugsuit",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A pluggable interface for building command-line tools",
   "main": "lib/plugsuit.js",
   "scripts": {
@@ -22,9 +22,10 @@
     "chai": "*",
     "log4js": "*",
     "sendak-usage": ">=0.0.10",
-    "deep-grep": ">=0.3.5"
+    "deep-grep": ">=0.4.2",
+    "htd": "*"
   },
-  "author": "Jane Arc <jane.arc@gsa.gov> (http://18f.us/)",
+  "author": "Jane Arc <jane@cpan.org> (https://github.com/janearc)",
   "license": "CC0-1.0",
   "bugs": {
     "url": "https://github.com/janearc/plugsuit/issues"
