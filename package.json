@@ -22,9 +22,10 @@
     "chai": "*",
     "log4js": "*",
     "sendak-usage": ">=0.0.10",
-    "deep-grep": ">=0.3.5"
+    "deep-grep": ">=0.4.2",
+    "htd": "*"
   },
-  "author": "Jane Arc <jane@cpan.org> (http://18f.us/)",
+  "author": "Jane Arc <jane@cpan.org> (https://github.com/janearc)",
   "license": "CC0-1.0",
   "bugs": {
     "url": "https://github.com/janearc/plugsuit/issues"
