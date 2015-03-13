@@ -1,6 +1,6 @@
 0.0.5
 ---
-* fixed broken 'help'
+* fixed several things broken about 'help'
 * removed references to nopt (we use minimist today)
 
 0.0.2
