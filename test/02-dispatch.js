@@ -9,5 +9,5 @@ var assert   = require( 'assert' )
 	, plugsuit = require( '../lib/plugsuit.js' ).init( 'examples/pilots', canned_argv() );
 
 it( 'dispatch a plug', function () {
-	assert( plugsuit.dispatch( canned_argv() ), 'dispatch() returns true' );
+	assert( plugsuit( canned_argv() ), 'dispatch() returns true' );
 } );

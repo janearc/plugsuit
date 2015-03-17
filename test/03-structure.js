@@ -6,9 +6,10 @@ var assert   = require( 'assert' )
 			'asuka',
 			'--eva-02'
 		] }
-	, plugsuit = require( '../lib/plugsuit.js' ).init( 'examples/pilots', canned_argv() );
+	, plugsuit = require( '../lib/plugsuit.js' );
 
 it( 'dispatch a plug', function () {
+	plugsuit.init( 'examples/pilots', canned_argv() );
 	[ 'init', 'dispatch', 'plugs', 'logger', 'stdout', 'stderr' ].forEach( function (prop) {
 		assert( plugsuit.hasOwnProperty( prop ), 'requisite property '.concat( prop, ' present' ) );
 	} );
