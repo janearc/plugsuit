@@ -21,7 +21,8 @@ shell, *plugsuit* may be for you.
 
 the code, show me the code
 ---
-okay, so, *plugsuit* takes "plugs." an example of a plug follows:
+okay, so, *plugsuit* takes "plugs." an example of a plug follows (which is
+also in the [examples](examples) directory):
 
 ```javascript
 // asuka.js
@@ -68,9 +69,7 @@ we would then presumably create something that looks like
 
 'use strict;'
 
-var tasks = require( 'plugsuit' ).init( 'bin' );
-
-tasks.dispatch( process.argv )
+require( 'plugsuit' ).init( 'bin' ).dispatch( process.argv )
 ```
 accordingly, one should then be able to run:
 ```

@@ -7,5 +7,4 @@
 
 var plugsuit = require( 'plugsuit' );
 
-plugsuit.init( 'examples/pilots' );
-plugsuit.dispatch( process.argv )
+plugsuit.init( 'examples/pilots' ).dispatch( process.argv )
