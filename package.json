@@ -1,6 +1,6 @@
 {
   "name": "plugsuit",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A pluggable interface for building command-line tools",
   "main": "lib/plugsuit.js",
   "scripts": {
