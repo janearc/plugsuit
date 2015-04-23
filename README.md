@@ -46,7 +46,7 @@ var plug = function (args) {
 	var replies = {
 		'artillery' : 'Schwein-hund!',
 		'shinji'    : 'How disgusting.',
-		'eva-02'    : 'You're thinking in Japanese, aren't you? If you MUST think, do it in German!'
+		'eva-02'    : "You're thinking in Japanese, aren't you? If you MUST think, do it in German!"
 	};
 
 	Object.keys( args ).forEach( function (arg) {
